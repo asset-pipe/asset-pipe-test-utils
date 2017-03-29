@@ -1,0 +1,27 @@
+{
+  "name": "asset-pipe-test-es5b",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trygve Lie",
+    "email": "post@trygve-lie.com"
+  },
+  "description": "ES5 module intended for use in testing the asset-pipe project",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:asset-pipe/asset-pipe-test-utils.git"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Trygve Lie",
+      "email": "post@trygve-lie.com"
+    }
+  ],
+  "dependencies": {
+    "asset-pipe-test-es5c": "1.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
